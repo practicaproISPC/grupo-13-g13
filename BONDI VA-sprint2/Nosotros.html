@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <style>
+        table.header{
+            width:100%;
+        }
+
+        header{width:auto; display:table; background-color:#42b23c; margin-bottom:50px;}
+        hr{height: 2px; background-color: #1c8816; border-color: #dcd016;}
+        div.menu{
+            background-color: #1c8816; 
+            font-family: 'Varela Round', sans-serif;
+        }
+
+        nav{width:auto; float:right;}
+        nav ul{display:table; float:right;}
+        nav ul li{float:left;}
+        nav ul li:last-child{padding-right:0px;}
+        nav ul li a{color:#dcd016; font-size:20px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+        nav ul li a:hover{background-color:#dcd016; color:#42b23c; transition: all 0.5s ease 0s;}
+        nav ul li a:hover i{color:#42b23c; transition: all 0.5s ease 0s;}
+        nav ul li a i{padding-right:10px; color:#dcd016; transition: all 0.5s ease 0s;}
+        .toggle-menu ul{display:table; width:20px;}
+        .toggle-menu ul li{width:100%; height:0px; background-color:#dcd016; margin-bottom:4px;}
+        .toggle-menu ul li:last-child{margin-bottom:0px;}
+
+        input[type=checkbox], label{display:none;}
+        *{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+        
+        h1{text-align:center;}
+        body{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin:0cm 0cm 8pt; 
+            padding:0px; 
+            font-family: 'Varela Round', sans-serif;
+        }
+        div.cuerpo {background-color:seashell;}
+
+        hr {clear: both;}
+
+        div.perfiles{
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin: 3px;
+            padding: 3px;
+            border: black 2px solid;
+        }
+        img.perfil {float: left; width: 200px; height: 200px;}
+        div.ivan{float: left;}
+        div.silvana{float: left;}
+        div.emir{float: left;}
+
+        footer{
+            position:fixed;
+            left:0px;
+            bottom:0px;
+            height:95px;
+            width:100%;
+            background:#42b23c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <table class="header" border="0"><tr>
+            <td><center><a href="K:\00 TECNICATURA MÓVIL\08 PRÁCTICA PROFESIONALIZANTE I\BondiVa\WebPage\Home.html"><img src="https://i.ibb.co/GcwFkVK/Header.jpg" alt="Header" border="0"></a></center></td>
+        </tr></table>
+        
+        <hr>
+        
+        <label for="toggle-1" class="toggle-menu"><ul><li></li> <li></li> <li></li></ul></label>
+        <input type="checkbox" id="toggle-1">
+    <div class="menu">   
+        <nav>
+        <ul>
+        <li><a href="#logo"><i class="icon-home"></i>Principal</a></li>
+        <li><a href="K:\00 TECNICATURA MÓVIL\08 PRÁCTICA PROFESIONALIZANTE I\BondiVa\WebPage\Nosotros.html"><i class="icon-user"></i>Nosotros</a></li>
+        <li><a href="#portfolio"><i class="icon-thumbs-up-alt"></i>Aplicación</a></li>
+        <li><a href="#services"><i class="icon-gear"></i>Reportar</a></li>
+        <li><a href="#footer"><i class="icon-phone"></i>Contáctanos</a></li>
+        </ul>
+        </nav>
+    </div>    
+    </header>
+
+    <div class="cuerpo">
+    <h1>Quienes Somos</h1>
+    <br>
+    <p>Aquí estamos, somos el equipo de "Bondi Va", nos conocimos a finales del 2020 en plena pandemia y con el objetivo común de REINVENTARNOS durante el cursado de una nueva y esperanzadora carrera. <br>
+    Dicho objetivo fue tomando rumbo mientras más nos adentrábamos en este nuevo mundo de la programación y llega a convertirse en lo que hoy somos: un equipo altamente motivado con ganas de brindar SOLUCIONES INTELIGENTES a la comunidad, y desemboca en esta nueva aplicación llamada BONDI VA.</br><br>
+    A continuación nos presentamos:
+    </p>
+
+    <br>
+<div class="perfiles">
+    <div class="ivan">
+    <ul>
+        <img class="perfil" src="https://i.ibb.co/h17yd1v/Nosotros-Ivan.jpg" border="0" alt="Linkedin">
+        <h2>IVÁN ROMERO</h2>
+        <li>Edad:30 años</li>
+        <li>Ocupación: Scrum Master</li>
+        <li>Envíale un Email:</li>
+        <li>Sus redes: <a href="https://www.linkedin.com/in/ivan-gabriel-romero/"></a><img src="https://i.ibb.co/6PcjmJv/Nosotros-linkedin.png" alt="Nosotros-linkedin" border="0" width="20" height="20"></a> </li>
+   </ul>
+</div>
+<hr>
+<div class="silvana">
+   <ul>
+        <img class="perfil" src="https://i.ibb.co/61ZG99v/Nosotros-Silvana.jpg" border="0" alt="Linkedin">       
+        <h2>SILVANA BURGOS</h2>
+        <li>Edad: 39 años</li>
+        <li>Ocupación: Docente</li>
+        <li>Envíale un Email:</li>
+        <li>Sus redes: <a href="https://www.linkedin.com/in/silvana-burgos-521567131/"><img src="https://i.ibb.co/6PcjmJv/Nosotros-linkedin.png" alt="Nosotros-linkedin" border="0" width="20" height="20"></a> </li>
+    </ul>
+</div>
+<hr>
+<div class="emir">    
+    <ul>
+        <img class="perfil" img src="https://i.ibb.co/bvXySFS/Nosotros-Emir.jpg" border="0" alt="Linkedin">
+        <h2>EMIR SAM SAM</h2>
+        <li>Edad: 29 años</li>
+        <li>Ocupación: Vendedor</li>
+        <li>Envíale un Email: ea.samsam@gmail.com</li>
+        <li>Sus redes: <a href="https://www.linkedin.com/in/esamsam/"><img src="https://i.ibb.co/6PcjmJv/Nosotros-linkedin.png" alt="Nosotros-linkedin" border="0" width="20" height="20"></a> </li><br><br><br><br><br>
+    </ul>
+</div>
+</div>
+</div>
+
+<footer id="footer">
+    Equipo 13, ISPC ® Todos los derechos reservados - 2021
+    <br>
+<div style="float: right;">
+    ACCEDE A NUESTRO REPOSITORIO GitHub: 
+    <button><a href="https://github.com/practicaproISPC/grupo-13-g13"> <img src="https://i.ibb.co/tCS2fzB/FOOTER-GHub.png" alt="FOOTER-GHub" border="0">
+    </button>
+</div>
+</footer>
+
+</body>
+</html>

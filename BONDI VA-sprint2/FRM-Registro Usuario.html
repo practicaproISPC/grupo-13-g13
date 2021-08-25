@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background: linear-gradient(115deg, seashell 10%, #ffd900 90%);
+            display: flex;
+            justify-content:center
+        }
+        form{
+            float:left;
+            padding:10px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: #ffffff;
+            border-radius: 15px;
+        }
+        div{
+            padding: 10px;
+        }
+        h1{
+            font-family: 'Varela Round', sans-serif;
+            text-align: center;
+        }
+        .botones{
+            float:left;
+        }
+        .contenedor{
+            border-radius: 20px;
+            background-color:rgb(255, 255, 255);
+            /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50); */
+            box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.65);
+        }
+
+    </style>
+
+</head>
+<body>
+
+<div class="contenedor">
+    <form action="">
+        <h1>
+            REGISTRO DE USUARIO
+        </h1>
+        <div>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" id="nacimiento" required>
+        </div>
+        <div>
+            <label for="nombre" required>Nombre</label>
+            <input type="text" name="" id="nombre" placeholder="nombre" required>
+        </div>
+        <div>
+            <label for="mail" >e-mail</label>
+            <input type="email" id="mail" placeholder="e-mail" required >
+        </div>
+        <div>
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" placeholder="8 caracteres minimo" required>
+            <br>
+            <br>
+            <label for="contrasena2">Confirmar contraseña</label>
+            
+            <input type="password" id="contrasena2" placeholder="confirmar contraseña" required>
+        </div>
+        <div>
+            <label for="tel">Teléfono</label>
+            <input type="tel" id="tel" placeholder="teléfono">
+        </div>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="nombre de usuario" required>
+        </div>
+
+        <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="password" placeholder="contraseña"
+                   minlength="8" required>
+        </div>
+        <br><br>
+        <div class="botones">
+            <input type="reset">
+            <button type="submit" onclick="alerta()">GUARDAR</button>
+        </div>
+
+    </form>
+    <script>
+        function alerta(){
+            alert("Usuario creado! Verificá tu cuenta en tu casilla de e-mail")
+        }
+    </script>   
+</div>
+</body>
+</html>
