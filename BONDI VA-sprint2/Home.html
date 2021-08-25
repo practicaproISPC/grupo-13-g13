@@ -87,6 +87,14 @@
             </ul>
             </nav>
         </div>    
+        <script>
+               
+            function logout()
+             {
+               alert ("Sesión cerrada correctamente");
+             }
+                </script>
+
     </header>
 
 <div class="cuerpo">  
@@ -101,12 +109,21 @@
     </section>
 
     <section class="content">
+        <button>
         <a href="LoginNuevo.html">
             <h2 style="text-align: right;">
                 Login
             </h2>
         </a>
-        
+    </button>
+        <button onclick="logout()">
+            <a href="Home.html">
+                <h2 style="text-align: right;">
+                    Logout
+                </h2>
+            </a>
+            
+        </button>
         <hr>
         <div class="container">
             <table class= "table table-bordereder">
