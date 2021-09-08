@@ -1,0 +1,10 @@
+C:\Users\Ivan\source\repos\experimento2\obj\Debug\experimento2.csprojAssemblyReference.cache
+C:\Users\Ivan\source\repos\experimento2\obj\Debug\experimento2.Properties.Resources.resources
+C:\Users\Ivan\source\repos\experimento2\obj\Debug\experimento2.csproj.GenerateResource.cache
+C:\Users\Ivan\source\repos\experimento2\obj\Debug\experimento2.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\source\repos\experimento2\bin\Debug\experimento2.exe.config
+C:\Users\Ivan\source\repos\experimento2\bin\Debug\experimento2.exe
+C:\Users\Ivan\source\repos\experimento2\bin\Debug\experimento2.pdb
+C:\Users\Ivan\source\repos\experimento2\obj\Debug\experimento2.exe
+C:\Users\Ivan\source\repos\experimento2\obj\Debug\experimento2.pdb
+C:\Users\Ivan\source\repos\experimento2\obj\Debug\experimento2.FrmBondiVa.resources
