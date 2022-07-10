@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(115deg, seashell 10%, #ffd900 90%);
+    display: flex;
+    justify-content:center
+}
+form{
+    float:left;
+    padding:10px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+div{
+    padding: 10px;
+}
+h1{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+}
+.botones{
+    float:left;
+}
+.contenedor{
+    border-radius: 20px;
+    background-color:rgb(255, 255, 255);
+    /* box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.50); */
+    box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.65);
+}
