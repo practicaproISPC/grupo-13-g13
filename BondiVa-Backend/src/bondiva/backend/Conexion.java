@@ -41,9 +41,8 @@ public class Conexion {
         } catch (Exception ex){
             System.out.println(ex);
         }
-        return con;
-        
-        
-        
+        return con;   
     }  
+    
+    
 }
