@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Varela+Round&display=swap" rel="stylesheet">
+
+    <style>
+        .contenedor1{
+            width: fit-content;
+            display: flex;
+            /* align-items: center; */
+            align-content: center;
+            
+            background-color: white;
+            border-radius: 10;
+            padding: 20px;
+            font-family: 'Montserrat', sans-serif;
+            border-radius: 20px;
+            box-shadow: 5px 5px 12px 1px rgba(0,0,0,0.65);
+        }
+        input{
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        body{
+            display: flex;
+            background: linear-gradient(115deg, seashell 10%, #ffd900 90%);
+            /* align-content: center; */
+            justify-content:center
+        }
+        .mensajero{
+            height: 300px;
+        }
+        h2{
+            font-family: 'Varela Round', sans-serif;
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor1">
+        <form action="">
+            <h2>
+                Formulario de Contacto
+            </h2>
+            <p>
+                Ponte en contacto con nosotros!
+            </p>
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Nombre"> 
+            <br>
+            <label for="">e-mail</label>
+            <input type="email" placeholder="e-mail">
+            <br>
+            <label for="">Teléfono</label>
+            <input type="tel" name="" id="" placeholder="teléfono">
+            <br>
+            <label for="">Asunto</label>
+            <input type="text"placeholder="asunto">
+            <br>
+            <label for="" class="mensajero">Mensaje</label>
+            <input type="text" id="name" name="name" required
+                    minlength="10" maxlength="500" size="50" placeholder="escriba aquí su mensaje">
+            <br>
+            <br>
+            <button type="submit" onclick="alerta()">Enviar</button>
+            
+            <script>
+                function alerta(){
+                    alert("Gracias por contactarnos!")
+                }
+                
+            </script>
+        </form>
+    </div>
+</body>
+</html>
